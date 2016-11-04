@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="ViewfinderView">
+        <attr name="vf_foursquareColor" format="color"/>
+        <attr name="vf_maskColor" format="color"/>
+        <attr name="vf_resultColor" format="color"/>
+        <attr name="vf_laserColor" format="color"/>
+        <attr name="vf_resultPointColor" format="color"/>
+        <attr name="vf_fours_square_length" format="dimension"/>
+        <attr name="vf_fours_square_width" format="dimension"/>
+    </declare-styleable>
+
 </resources>

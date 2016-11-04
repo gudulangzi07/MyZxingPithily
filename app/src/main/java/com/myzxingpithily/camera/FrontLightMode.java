@@ -18,7 +18,7 @@ package com.myzxingpithily.camera;
 
 import android.content.SharedPreferences;
 
-import com.myzxingpithily.preference.PreferencesActivity;
+import com.myzxingpithily.preference.PreferenceConstants;
 
 /**
  * Enumerates settings of the preference controlling the front light.
@@ -37,7 +37,7 @@ public enum FrontLightMode {
   }
 
   public static FrontLightMode readPref(SharedPreferences sharedPrefs) {
-    return parse(sharedPrefs.getString(PreferencesActivity.KEY_FRONT_LIGHT_MODE, OFF.toString()));
+    return parse(sharedPrefs.getString(PreferenceConstants.KEY_FRONT_LIGHT_MODE, OFF.toString()));
   }
 
 }
